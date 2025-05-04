@@ -25,7 +25,7 @@
 * 12.FOOTER CSS STYLE
 * ----------------------------------------
 */
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900');
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -36,7 +36,7 @@ html {
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 15px;
     line-height: 1.75;
     margin: 0;
@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     font-weight: 700;
     line-height: 1.35;
     margin-bottom: 0.5rem;
@@ -226,8 +226,8 @@ img {
 .bg-primary,
 .btn-primary,
 .btn-white:hover {
-    background: #0063b2ff !important;
-    border-color: #0063b2ff !important;
+    background: #97bc62ff !important;
+    border-color: #97bc62ff !important;
     color: #fff;
 }
 
@@ -262,7 +262,7 @@ img {
 }
 
 .bg-overlay:before {
-    content: '';
+    content: "";
     opacity: 0.55;
     background-color: #212529;
 }
@@ -280,11 +280,11 @@ img {
 }
 
 .bg-primary {
-    background: #0063b2ff !important;
+    background: #97bc62ff !important;
 }
 
 a {
-    color: #0063b2ff;
+    color: #97bc62ff;
     transition: 0.3s;
 }
 
@@ -306,7 +306,7 @@ a:focus {
     padding: 8px;
 }
 .header-socials li a {
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 
 /*-----------------
@@ -326,7 +326,7 @@ a:focus {
 
 .icon-block {
     margin-right: 20px;
-    color: #0063b2ff;
+    color: #97bc62ff;
     font-size: 40px;
     line-height: 20px;
     font-weight: 400;
@@ -350,14 +350,14 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-    background: #0063b2ff;
+    background: #97bc62ff;
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
 }
 
 @media (max-width: 992px) {
     .trans-navigation {
-        background: #0063b2ff;
+        background: #97bc62ff;
         box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
         border-radius: 0px;
     }
@@ -465,35 +465,35 @@ PAGE BANNER
 .page-contact {
     position: relative;
     padding: 180px 0px;
-    background: url('../images/banner/p-6.jpg') fixed 50% 50% no-repeat;
+    background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
 .page-service {
     position: relative;
     padding: 180px 0px;
-    background: url('../images/banner/service.jpg') fixed 50% 50% no-repeat;
+    background: url("../images/banner/service.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
 .page-about {
     position: relative;
     padding: 180px 0px;
-    background: url('../images/banner/about.jpg') fixed 50% 50% no-repeat;
+    background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
 .page-pricing {
     position: relative;
     padding: 180px 0px;
-    background: url('../images/banner/img2.jpg') fixed 50% 50% no-repeat;
+    background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
 .page-project {
     position: relative;
     padding: 180px 0px;
-    background: url('../images/banner/p-4.jpg') fixed 50% 50% no-repeat;
+    background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -517,7 +517,7 @@ PAGE BANNER
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
-    content: '';
+    content: "";
     vertical-align: middle;
     background: no-repeat 50%;
     background-size: 100% 100%;
@@ -565,7 +565,7 @@ PAGE BANNER
     right: 0;
     bottom: 0;
     left: 0;
-    content: '';
+    content: "";
     transition: opacity 0.15s linear;
     opacity: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -575,9 +575,9 @@ PAGE BANNER
 .dropdown-toggle::after {
     margin-left: 0.255em;
     vertical-align: 1px;
-    content: '\f078';
+    content: "\f078";
     border: 0;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-size: 12px;
 }
 
@@ -642,7 +642,7 @@ PAGE BANNER
 }
 .has-dropdown .dropdown-menu a:focus,
 .has-dropdown .dropdown-menu a:hover {
-    background: #0063b2ff;
+    background: #97bc62ff;
     color: #fff;
 }
 
@@ -654,19 +654,19 @@ PAGE BANNER
 .dropleft .dropdown-toggle::before,
 .dropright .dropdown-toggle::after {
     font-weight: bold;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     border: 0;
     font-size: 10px;
     vertical-align: 1px;
 }
 
 .dropleft .dropdown-toggle::before {
-    content: '\f053';
+    content: "\f053";
     margin-right: 7px;
 }
 
 .dropright .dropdown-toggle::after {
-    content: '\f054';
+    content: "\f054";
     margin-left: 7px;
 }
 
@@ -679,7 +679,7 @@ PAGE BANNER
 
 .dropdown-submenu:hover > .dropdown-item,
 .dropdown-item:hover {
-    background: #0063b2ff;
+    background: #97bc62ff;
     color: #fff !important;
 }
 
@@ -743,7 +743,7 @@ ul.dropdown-menu li {
 -----------------------------*/
 #banner {
     position: relative;
-    background: url('/images/bg/banner_bg.jpg') no-repeat;
+    background: url("/images/bg/banner_bg.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -779,13 +779,13 @@ ul.dropdown-menu li {
 
 #banner-3 {
     position: relative;
-    background: url('../images/banner/banner.jpg') no-repeat;
+    background: url("../images/banner/banner.jpg") no-repeat;
     background-size: cover;
 }
 
 #banner-4 {
     position: relative;
-    background: url('../images/banner/banner-2.jpg') no-repeat;
+    background: url("../images/banner/banner-2.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -797,9 +797,9 @@ ul.dropdown-menu li {
 }
 .img-icon-block:before {
     position: absolute;
-    content: '';
+    content: "";
     top: -27px;
-    background-color: #0063b2ff;
+    background-color: #97bc62ff;
     opacity: 0.3;
     width: 80px;
     right: 70px;
@@ -822,7 +822,7 @@ ABOUT-2
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 #about .img-block img {
-    border: 5px solid #0063b2ff;
+    border: 5px solid #97bc62ff;
 }
 
 .pt-6 {
@@ -837,7 +837,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-    color: #0063b2ff;
+    color: #97bc62ff;
     margin-bottom: 10px;
     font-weight: 300;
 }
@@ -867,7 +867,7 @@ h5.subtitle {
     font-size: 25px;
     width: 50px;
     height: 50px;
-    background: #0063b2ff;
+    background: #97bc62ff;
     text-align: center;
     border-radius: 50%;
     padding-top: 5px;
@@ -886,12 +886,12 @@ h5.subtitle {
 -----------------------*/
 #services-2 {
     position: relative;
-    background: url('../images/bg/6.jpg') no-repeat fixed 50% 50%;
+    background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
 }
 #services-2:before {
     position: absolute;
-    content: '';
+    content: "";
     left: 0px;
     top: 0px;
     width: 100%;
@@ -931,7 +931,7 @@ h5.subtitle {
     border-color: transparent;
 }
 .web-service-block:hover i {
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 .web-service-block:hover h3 {
     color: #111;
@@ -951,7 +951,7 @@ h5.subtitle {
 -----------------------*/
 #projects-wrap {
     position: relative;
-    background: url('../images/bg/banner_bg.jpg') no-repeat;
+    background: url("../images/bg/banner_bg.jpg") no-repeat;
     background-size: cover;
 }
 #projects-wrap p.lead {
@@ -1010,7 +1010,7 @@ h5.subtitle {
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 .project-content-block h4 {
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 .project-content-block p {
     margin-top: 25px;
@@ -1025,7 +1025,7 @@ h5.subtitle {
 
 .overlay-content-block {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 20px;
     width: 100%;
     left: 30px;
@@ -1046,7 +1046,7 @@ h5.subtitle {
     position: absolute;
     left: 30px;
     top: -23px;
-    background: #0063b2ff;
+    background: #97bc62ff;
     color: #fff;
 }
 .overlay-content-block h4 {
@@ -1145,11 +1145,11 @@ h5.subtitle {
 }
 .price-features li:before {
     position: absolute;
-    content: '\f00c';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
     left: 0px;
     top: 5px;
-    color: #0063b2ff;
+    color: #97bc62ff;
     font-weight: 900;
 }
 
@@ -1224,7 +1224,7 @@ PRICING-2
     margin: 20px 0px;
 }
 .blog-content:hover a h3 {
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 .blog-content h6 span {
     display: inline-block;
@@ -1315,12 +1315,12 @@ CONTACT PAGE
     font-size: 40px;
     margin-bottom: 20px;
     display: block;
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 
 .form-control:focus,
 .form-control:hover {
-    border-color: #0063b2ff;
+    border-color: #97bc62ff;
     box-shadow: none;
 }
 
@@ -1348,7 +1348,7 @@ CONTACT PAGE
 }
 
 #footer {
-    background: url('../images/bg/10.jpg');
+    background: url("../images/bg/10.jpg");
     background-size: cover;
 }
 
@@ -1388,7 +1388,7 @@ CONTACT PAGE
 }
 .footer-copy:before {
     position: absolute;
-    content: '';
+    content: "";
     right: calc(100% + 30px);
     top: 16px;
     width: 2000%;
@@ -1398,7 +1398,7 @@ CONTACT PAGE
 }
 
 .current-year {
-    color: #0063b2ff !important;
+    color: #97bc62ff !important;
 }
 
 /*-----------------------------
@@ -1406,11 +1406,11 @@ CONTACT PAGE
 --------------------------------*/
 .scroll-to-top {
     position: fixed;
-    content: '';
+    content: "";
     right: 30px;
     bottom: 50px;
     z-index: 999;
-    background: #0063b2ff;
+    background: #97bc62ff;
     color: #fff !important;
     border-radius: 100%;
     opacity: 0;
@@ -1637,7 +1637,7 @@ CONTACT PAGE
     }
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #0063b2ff;
+        background: #97bc62ff;
     }
     #map {
         margin-top: 40px;
@@ -1668,7 +1668,7 @@ CONTACT PAGE
     }
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #0063b2ff;
+        background: #97bc62ff;
     }
     .top-info-block {
         text-align: center;
@@ -1890,7 +1890,7 @@ CONTACT PAGE
     }
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #0063b2ff;
+        background: #97bc62ff;
     }
     .web-service-block {
         margin-bottom: 30px;
@@ -1941,7 +1941,7 @@ CONTACT PAGE
     }
 }
 /*# sourceMappingURL=style.css.map */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
     position: fixed;
@@ -1971,12 +1971,12 @@ CONTACT PAGE
     display: none;
 }
 .cookie-wrapper header i {
-    color: #0063b2ff;
+    color: #97bc62ff;
     font-size: 32px;
     text-align: center;
 }
 .cookie-wrapper header h2 {
-    color: #0063b2ff;
+    color: #97bc62ff;
     font-weight: 500;
     text-align: center;
 }
@@ -1984,7 +1984,7 @@ CONTACT PAGE
     text-align: center;
 }
 .data p a {
-    color: #0063b2ff;
+    color: #97bc62ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -1996,10 +1996,10 @@ CONTACT PAGE
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #0063b2ff;
+    border: 2px solid #97bc62ff;
     color: #fff;
     padding: 8px 0;
-    background: #0063b2ff;
+    background: #97bc62ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -2008,18 +2008,18 @@ CONTACT PAGE
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #0063b2ff;
+    color: #97bc62ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #0063b2ff;
+    color: #97bc62ff;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #0063b2ff;
+    background-color: #97bc62ff;
     color: #fff;
 }
 #result {
-    color: #0063b2ff;
+    color: #97bc62ff;
     font-size: 14px;
 }
